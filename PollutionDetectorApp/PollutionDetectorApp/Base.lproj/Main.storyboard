@@ -81,7 +81,7 @@
                                     <color key="baseBackgroundColor" red="0.69459434050000002" green="0.91976243260000001" blue="0.70494103019999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="mFc-zO-gBp" kind="show" id="coH-8E-1hD"/>
+                                    <segue destination="mFc-zO-gBp" kind="show" identifier="NoisePollutionSegue" id="coH-8E-1hD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -291,10 +291,6 @@
                                 <color key="textColor" systemColor="systemBlueColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EjS-31-FlA">
-                                <rect key="frame" x="76" y="598" width="240" height="156"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZq-qg-koR">
                                 <rect key="frame" x="271" y="91" width="106" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -304,6 +300,10 @@
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="WatreHomeSegue" id="ItJ-NS-jKe"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EjS-31-FlA">
+                                <rect key="frame" x="76" y="632" width="240" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cEZ-bT-F37"/>
                         <color key="backgroundColor" red="0.99261596892338921" green="1" blue="0.86989863167579529" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -542,7 +542,7 @@
                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="ba0-kS-qEC" kind="show" id="Ojd-rn-i4s"/>
+                                    <segue destination="ba0-kS-qEC" kind="show" identifier="NoiseQualitySegue" id="Ojd-rn-i4s"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oj9-ol-c8x">
@@ -599,10 +599,6 @@
                                 <color key="textColor" systemColor="systemBlueColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TDv-xH-6oX">
-                                <rect key="frame" x="66" y="590" width="261" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8O-Ki-kNj">
                                 <rect key="frame" x="263" y="103" width="114" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -612,6 +608,10 @@
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="NoiseHomeSegue" id="UJo-Xu-izJ"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TDv-xH-6oX">
+                                <rect key="frame" x="73" y="590" width="246" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UFW-uA-kK5"/>
                         <color key="backgroundColor" red="1" green="0.9888247778" blue="0.86897919560000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
