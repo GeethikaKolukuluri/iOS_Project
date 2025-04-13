@@ -24,7 +24,14 @@ class NoiseQualityViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        enteredTrafficVolumeOL.text! += "\(enteredTrafficVolume) db."
+        enteredDistanceFromRoadOL.text! += "\(enterdDistanceFromRoad) km."
+        noiseResultOL.text! += noiseResult
+        imageOL.image = UIImage(named: imageName)
+        imageOL.alpha = 0.0
+        UIView.animate(withDuration: 1.5) {
+            self.imageOL.alpha = 1.0
+        }
         // Do any additional setup after loading the view.
     }
     
