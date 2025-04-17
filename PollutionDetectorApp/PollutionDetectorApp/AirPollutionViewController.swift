@@ -58,7 +58,7 @@ class AirPollutionViewController: UIViewController {
         }
         else if calAirQuality>=50 && calAirQuality<80{
             resultI = "The AQC value is \(String(format: "%.1f", calAirQuality))\n"+"This is considered to be moderate quality air😕."
-            imgI = "medAir"
+            imgI = "MidAir"
         }
         else if calAirQuality>=80 && calAirQuality<110{
             resultI = "The AQC value is \(String(format: "%.1f", calAirQuality))\n"+"This is considered to be Poor quality air😕."
