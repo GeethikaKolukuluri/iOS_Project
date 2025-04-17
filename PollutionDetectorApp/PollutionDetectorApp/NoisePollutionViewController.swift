@@ -34,8 +34,6 @@ class NoisePollutionViewController: UIViewController {
     
     @IBAction func qualityCheckBtnClicked(_ sender: UIButton) {
         
-        
-                
         // Validate if the trafficVolume and distanceFromRoad are numeric and non-empty
         if let trafficVolumeText = trafficVolumeOL.text, let distanceFromRoadText = distanceFromRoadOL.text,
            Int(trafficVolumeText) == nil || Double(distanceFromRoadText) == nil {
@@ -78,8 +76,6 @@ class NoisePollutionViewController: UIViewController {
             }
         AudioServicesPlaySystemSound(1156)
         performSegue(withIdentifier: "NoiseQualitySegue", sender: self)
-
-
         
     }
     
