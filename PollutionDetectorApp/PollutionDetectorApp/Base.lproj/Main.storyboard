@@ -174,7 +174,6 @@
                         <outlet property="pm10OL" destination="GMe-ba-ckM" id="dqC-As-JTv"/>
                         <outlet property="pm25OL" destination="a53-sl-vjr" id="kP3-tS-37I"/>
                         <outlet property="resetBtnOL" destination="uDd-ik-ywp" id="fAC-er-tXg"/>
-                        <segue destination="dYU-f1-LGx" kind="show" identifier="AirQualitySegue" id="dXZ-q8-4eo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CPP-DB-na5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -186,7 +185,7 @@
             <objects>
                 <viewController id="dYU-f1-LGx" customClass="AirQualityViewController" customModule="PollutionDetectorApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZRM-Wd-GsD">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Air Pollution Detector" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFg-zh-I6Y">
