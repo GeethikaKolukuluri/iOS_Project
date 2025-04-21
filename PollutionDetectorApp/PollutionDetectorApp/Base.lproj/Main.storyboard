@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="syg-2J-bmE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="syg-2J-bmE">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,7 +14,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PollutionDetectorApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pollution Detector App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ijN-Jd-vvu">
@@ -60,7 +60,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="globe.europe.africa" catalog="system" title="Land Pollution">
+                                <buttonConfiguration key="configuration" style="filled" image="globe.europe.africa" catalog="system" title="Soil Pollution">
                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="30"/>
                                     <color key="baseForegroundColor" red="0.86722616559999999" green="0.033439469960000003" blue="0.053431728599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.69459434050000002" green="0.91976243260000001" blue="0.70494103019999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -99,7 +99,7 @@
             <objects>
                 <viewController id="Biw-E0-mxG" customClass="AirPollutionViewController" customModule="PollutionDetectorApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nje-CB-sps">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Air Pollution Detector" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9g-fa-mDQ">
@@ -186,7 +186,7 @@
             <objects>
                 <viewController id="dYU-f1-LGx" customClass="AirQualityViewController" customModule="PollutionDetectorApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZRM-Wd-GsD">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Air Pollution Detector" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFg-zh-I6Y">
@@ -261,7 +261,7 @@
             <objects>
                 <viewController id="qny-av-d9j" customClass="WaterQualityViewController" customModule="PollutionDetectorApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rlK-bK-747">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Water Pollution Detector" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOs-Gr-pCJ">
@@ -315,15 +315,33 @@
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="WaterHomeSegue" id="ItJ-NS-jKe"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EjS-31-FlA">
-                                <rect key="frame" x="76" y="632" width="240" height="156"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="dIJ-Ni-DzV">
+                                <rect key="frame" x="17" y="566" width="360" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GM2-XW-50N">
+                                <rect key="frame" x="17" y="578" width="344" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="playPauseBtn:" destination="qny-av-d9j" eventType="touchUpInside" id="gc8-Q1-SFd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cEZ-bT-F37"/>
                         <color key="backgroundColor" red="0.99261596892338921" green="1" blue="0.86989863167579529" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZkY-fx-tjc"/>
+                    <connections>
+                        <outlet property="DisslovedOxygenOL" destination="gvw-Zi-UOS" id="3fN-ja-3jm"/>
+                        <outlet property="PHLevelOL" destination="ji7-A1-4di" id="twK-pp-zp4"/>
+                        <outlet property="ResultOL" destination="xsj-gP-SoD" id="4aI-Xc-tpk"/>
+                        <outlet property="TdsOL" destination="7st-go-sij" id="mwc-G3-vD1"/>
+                        <outlet property="TurbidityOL" destination="Vl3-eB-uXi" id="SuG-8c-uGw"/>
+                        <outlet property="pauseBtn" destination="GM2-XW-50N" id="vTd-m9-4BE"/>
+                        <outlet property="viewContainer" destination="dIJ-Ni-DzV" id="FVS-eQ-xMN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CtU-Pu-q3S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -334,7 +352,7 @@
             <objects>
                 <viewController id="gbD-Ce-BSL" customClass="WaterPollutionViewController" customModule="PollutionDetectorApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kj5-wi-gk6">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Water Pollution Detector" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7M-X0-SN3">
@@ -388,16 +406,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFeild:" destination="iFL-FC-0fg" eventType="editingChanged" id="H15-lp-ePs"/>
+                                    <action selector="textField:" destination="gbD-Ce-BSL" eventType="editingChanged" id="m5Y-cM-TG5"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOk-YY-Px6">
-                                <rect key="frame" x="131" y="581" width="131" height="35"/>
+                                <rect key="frame" x="131" y="581" width="131" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Quality Check">
                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="qny-av-d9j" kind="show" identifier="WaterQualitySegue" id="l8v-3f-F37"/>
+                                    <action selector="QualityCheckBtn:" destination="gbD-Ce-BSL" eventType="touchUpInside" id="mE8-R0-XCh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6F-Cd-2QH">
@@ -407,6 +429,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Reset">
                                     <color key="baseBackgroundColor" red="0.66594401029969696" green="0.67220826030222014" blue="0.69100101030978966" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ResetBtn:" destination="gbD-Ce-BSL" eventType="touchUpInside" id="XPn-Sk-B7b"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Turbidity:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yI3-mA-QKD">
                                 <rect key="frame" x="24" y="385" width="179" height="44"/>
@@ -420,20 +445,30 @@
                         <color key="backgroundColor" red="0.99261596890000003" green="1" blue="0.86989863170000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="cRa-vt-lyK"/>
+                    <connections>
+                        <outlet property="DisslovedOxygenOL" destination="tqg-hs-83x" id="RlB-4e-OOP"/>
+                        <outlet property="PHLevelOL" destination="7e3-JF-ARA" id="UaQ-8g-jmQ"/>
+                        <outlet property="TotalDisslovedSoilOL" destination="GL3-hh-7yB" id="dFC-lU-TsZ"/>
+                        <outlet property="TurbidityOL" destination="V8K-0u-Q3G" id="R7M-tY-Mr4"/>
+                        <outlet property="checkBtn" destination="NOk-YY-Px6" id="ZYO-T2-72L"/>
+                        <outlet property="resetBtn" destination="K6F-Cd-2QH" id="Rsz-0T-FHV"/>
+                        <segue destination="qny-av-d9j" kind="show" identifier="WaterQualitySegue" id="y9O-NG-q68"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UF2-YA-D5m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="iFL-FC-0fg" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2521" y="4"/>
+            <point key="canvasLocation" x="2519.8473282442746" y="3.5211267605633805"/>
         </scene>
         <!--Land Pollution View Controller-->
         <scene sceneID="Yb0-nV-J0I">
             <objects>
                 <viewController id="W1V-Tv-dCF" customClass="LandPollutionViewController" customModule="PollutionDetectorApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JC2-mf-3ld">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Land Pollution Detector" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1O-9D-gC3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Soil Pollution Detector" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1O-9D-gC3">
                                 <rect key="frame" x="16" y="196" width="353" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -454,7 +489,7 @@
                                 <color key="textColor" systemColor="systemBlueColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Metal Concentration:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpN-sm-tOa">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Soil PH Level:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpN-sm-tOa">
                                 <rect key="frame" x="16" y="404" width="206" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
@@ -472,6 +507,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFeild:" destination="W1V-Tv-dCF" eventType="editingDidEnd" id="VGa-91-OeD"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mg7-04-SG3">
                                 <rect key="frame" x="132" y="544" width="131" height="35"/>
@@ -481,7 +519,7 @@
                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="3lG-BN-RcX" kind="show" identifier="LandQualitySegue" id="NSR-eE-eqg"/>
+                                    <action selector="QualityCheckBtn:" destination="W1V-Tv-dCF" eventType="touchUpInside" id="vH5-Wn-Jr6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xWE-Mu-i3d">
@@ -491,6 +529,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Reset">
                                     <color key="baseBackgroundColor" red="0.66594401030000006" green="0.67220826030000003" blue="0.69100101030000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ResetBtn:" destination="W1V-Tv-dCF" eventType="touchUpInside" id="fCQ-EP-eEP"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yc5-Pc-sdP">
                                 <rect key="frame" x="258" y="339" width="97" height="34"/>
@@ -503,6 +544,14 @@
                         <color key="backgroundColor" red="0.99261596890000003" green="1" blue="0.86989863170000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="kt3-lJ-nCB"/>
+                    <connections>
+                        <outlet property="BiologicalGrowthOL" destination="yc5-Pc-sdP" id="TSl-WP-hr2"/>
+                        <outlet property="MetalConcentrationOL" destination="0kf-9Z-4bL" id="Uqc-Us-SfF"/>
+                        <outlet property="SoilPHLevel" destination="BGM-m5-Al4" id="D6n-da-Gdd"/>
+                        <outlet property="checkBtnOL" destination="Mg7-04-SG3" id="QdZ-hz-sGn"/>
+                        <outlet property="resetBtnOL" destination="xWE-Mu-i3d" id="UqF-3a-HRt"/>
+                        <segue destination="3lG-BN-RcX" kind="show" identifier="LandQualitySegue" id="Omb-eG-G6H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pHn-aE-HJj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -513,7 +562,7 @@
             <objects>
                 <viewController id="mFc-zO-gBp" customClass="NoisePollutionViewController" customModule="PollutionDetectorApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZOe-af-O4K">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Noise Pollution Detector" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOx-pK-c2E">
@@ -596,7 +645,7 @@
             <objects>
                 <viewController id="ba0-kS-qEC" customClass="NoiseQualityViewController" customModule="PollutionDetectorApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MEP-EC-3rf">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Noise Pollution Detector" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnq-To-O8Q">
@@ -661,10 +710,10 @@
             <objects>
                 <viewController id="3lG-BN-RcX" customClass="LandQualityViewController" customModule="PollutionDetectorApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A3g-Uo-hNp">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Land Pollution Detector" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RiA-rR-OcF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Soil Pollution Detector" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RiA-rR-OcF">
                                 <rect key="frame" x="16" y="180" width="361" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
@@ -699,10 +748,6 @@
                                 <color key="textColor" systemColor="systemBlueColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ma5-qU-tpB">
-                                <rect key="frame" x="76" y="592" width="240" height="156"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIC-qf-Zjc">
                                 <rect key="frame" x="263" y="103" width="114" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -712,11 +757,32 @@
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="LandHomeSegue" id="fAp-yY-cqi"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="DPk-TL-81i">
+                                <rect key="frame" x="35" y="555" width="322" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nzc-ke-f4x">
+                                <rect key="frame" x="35" y="555" width="322" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="playPauseTapped:" destination="3lG-BN-RcX" eventType="touchUpInside" id="BiL-D7-sYf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kX1-SU-5Yh"/>
                         <color key="backgroundColor" red="0.99261596890000003" green="1" blue="0.86989863170000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="S16-QG-4Jv"/>
+                    <connections>
+                        <outlet property="BiologicalGrowthOL" destination="Pce-dw-WvP" id="EAj-9b-CiW"/>
+                        <outlet property="MetalConcentrationOL" destination="uPT-6r-3rR" id="6P3-CH-QBt"/>
+                        <outlet property="ResultOL" destination="f9s-E9-9m0" id="S19-bt-jYC"/>
+                        <outlet property="SoilPHLevelOL" destination="pO2-j8-E2K" id="myx-M6-Guh"/>
+                        <outlet property="pauseBtn" destination="Nzc-ke-f4x" id="BNf-fo-5hi"/>
+                        <outlet property="videoContainer" destination="DPk-TL-81i" id="U7I-Mu-SnA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jBu-Vj-wWy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -728,7 +794,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="syg-2J-bmE" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ou9-gy-8S2">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="118" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -742,8 +808,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="fuo-CO-hon"/>
-        <segue reference="Y9F-rr-cae"/>
+        <segue reference="y9O-NG-q68"/>
+        <segue reference="ItJ-NS-jKe"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.clockwise.circle" catalog="system" width="128" height="123"/>
