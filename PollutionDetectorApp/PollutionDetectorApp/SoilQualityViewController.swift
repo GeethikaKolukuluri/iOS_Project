@@ -38,7 +38,7 @@ class LandQualityViewController: UIViewController {
         MetalConcentrationOL.text! += "\(metal)"
         BiologicalGrowthOL.text! += "\(biologicalGrowth)"
         SoilPHLevelOL.text! += "\(soilPHLevel)"
-        ResultOL.text! += "\(result)"
+        ResultOL.text! = "\(result)"
         playLoopingVideo(name: name)
         
     }

@@ -72,6 +72,7 @@ class AirPollutionViewController: UIViewController {
             AudioServicesPlayAlertSound(1322)
             return
         }
+        AudioServicesPlaySystemSound(1156)
         performSegue(withIdentifier: "AirQualitySegue", sender: self)
     }
 

@@ -32,7 +32,7 @@ class NoiseQualityViewController: UIViewController {
         super.viewDidLoad()
         enteredTrafficVolumeOL.text! += "\(enteredTrafficVolume) db."
         enteredDistanceFromRoadOL.text! += "\(enterdDistanceFromRoad) km."
-        noiseResultOL.text! += noiseResult
+        noiseResultOL.text! = noiseResult
         playLoopingVideo(name: imageName)
         // Do any additional setup after loading the view.
     }

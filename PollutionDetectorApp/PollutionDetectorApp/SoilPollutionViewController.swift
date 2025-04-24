@@ -68,7 +68,7 @@ class LandPollutionViewController: UIViewController {
             present(alertController, animated: true, completion: nil)
             return
         }
-        AudioServicesPlayAlertSound(1322)
+        AudioServicesPlaySystemSound(1156)
         performSegue(withIdentifier: "LandQualitySegue", sender: self)
     }
     

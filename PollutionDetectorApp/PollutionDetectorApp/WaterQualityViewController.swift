@@ -41,7 +41,7 @@ class WaterQualityViewController: UIViewController {
         DisslovedOxygenOL.text! += "\(disslovedOxy)"
         TurbidityOL.text! += "\(turbidity)"
         TdsOL.text! += "\(tdsValue)"
-        ResultOL.text! += "\(result)"
+        ResultOL.text! = "\(result)"
         playLoopingVideo(name: name)
 
         // Do any additional setup after loading the view.

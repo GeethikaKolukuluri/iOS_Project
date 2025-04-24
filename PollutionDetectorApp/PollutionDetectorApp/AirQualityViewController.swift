@@ -37,7 +37,7 @@ class AirQualityViewController: UIViewController {
         // Do any additional setup after loading the view.
         pm25label.text! += "\(enteredpm25)"
         pm10label.text! += "\(enteredpm10)"
-        AirResultlabel.text! += result
+        AirResultlabel.text! = result
         playLoopingVideo(name: name)
     }
     

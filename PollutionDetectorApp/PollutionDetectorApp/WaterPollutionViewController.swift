@@ -79,7 +79,7 @@ class WaterPollutionViewController: UIViewController {
             AudioServicesPlayAlertSound(1322)
             return
                 }
-        AudioServicesPlayAlertSound(1322)
+        AudioServicesPlaySystemSound(1156)
         performSegue(withIdentifier: "WaterQualitySegue", sender: self)
         
     }
