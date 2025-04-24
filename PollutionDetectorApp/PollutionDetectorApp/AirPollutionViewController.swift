@@ -94,8 +94,16 @@ class AirPollutionViewController: UIViewController {
         AudioServicesPlaySystemSound(1000)
     }
     
-    
-    
+    override func viewWillAppear(_ animated: Bool) {
+            super.viewWillAppear(animated)
+            
+        // Reset all input fields
+        pm25OL.text! = ""
+        pm10OL.text! = ""
+        checkBtnOL.isEnabled = false
+        resetBtnOL.isEnabled = false
+        }
+
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         var transition = segue.identifier
