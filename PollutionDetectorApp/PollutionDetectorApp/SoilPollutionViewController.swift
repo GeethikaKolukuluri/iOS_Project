@@ -26,8 +26,10 @@ class LandPollutionViewController: UIViewController {
     var imgName = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        checkBtnOL.isEnabled = false
+        resetBtnOL.isEnabled = false
     }
     
     @IBAction func QualityCheckBtn(_ sender: UIButton) {
@@ -53,19 +55,20 @@ class LandPollutionViewController: UIViewController {
         let averagePollution = (mcolText + bgoText + spText) / 3
         
         if averagePollution < 30 {
-            result = "Soil Pollution Level: Low"
+            result = "The SQC value is \(String(format: "%.1f", averagePollution))\n"+"This is considered to be best👍 quality of soil."
             imgName = "LowSoil"
         } else if averagePollution >= 30 && averagePollution < 60 {
-            result = "Soil Pollution Level: Medium"
+            result = "The SQC value is \(String(format: "%.1f", averagePollution))\n"+"This is considered to be medium😕 quality of soil."
             imgName = "MediumSoil"
         } else if averagePollution >= 60 && averagePollution < 90 {
-            result = "Soil Pollution Level: High"
+            result = "The SQC value is \(String(format: "%.1f", averagePollution))\n"+"This is considered to be bad☹️ quality of soil."
             imgName = "HighSoil"
         } else {
             let alertController = UIAlertController(title: "Extreme Soil Pollution‼️🚨", message: "Estimated Soil Pollution Level is \(String(format: "%.2f", averagePollution)). Immediate action recommended to relocate.", preferredStyle: .alert)
             let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
             alertController.addAction(defaultAction)
             present(alertController, animated: true, completion: nil)
+            AudioServicesPlayAlertSound(1322)
             return
         }
         AudioServicesPlaySystemSound(1156)
@@ -73,7 +76,6 @@ class LandPollutionViewController: UIViewController {
     }
     
     
-   
     @IBAction func textFeild(_ sender: UITextField) {
         if !(MetalConcentrationOL.text!.isEmpty) && !(BiologicalGrowthOL.text!.isEmpty) && !(SoilPHLevel.text!.isEmpty) {
             checkBtnOL.isEnabled = true
@@ -92,6 +94,17 @@ class LandPollutionViewController: UIViewController {
         resetBtnOL.isEnabled = false
         AudioServicesPlaySystemSound(1000)
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+            super.viewWillAppear(animated)
+            
+        // Reset all input fields
+        MetalConcentrationOL.text! = ""
+        BiologicalGrowthOL.text! = ""
+        SoilPHLevel.text! = ""
+        checkBtnOL.isEnabled = false
+        resetBtnOL.isEnabled = false
+        }
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

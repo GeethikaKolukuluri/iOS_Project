@@ -32,6 +32,8 @@ class WaterPollutionViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        checkBtn.isEnabled = false
+        resetBtn.isEnabled = false
     }
     
     @IBAction func QualityCheckBtn(_ sender: UIButton) {
@@ -62,15 +64,15 @@ class WaterPollutionViewController: UIViewController {
             if TotalDisslovedSoil > 500 { pollutionScore += 1 }
         
         switch pollutionScore {
-                case 0:
-                    result = "Water Quality: Excellent 💧\nSafe for Drinking"
-                    imgName = "GoodWater"
-                case 1:
-                    result = "Water Quality: Moderate ⚠️\nNeeds Treatment"
-                    imgName = "LowWater"
-                case 2:
-                    result = "Water Quality: Poor 🚫\nNot Safe for Drinking"
-                     imgName = "BadWater"
+        case 0:
+            result = "The WQC value is \(pollutionScore)\n"+"This is considered to be best👍 quality of water."
+            imgName = "GoodWater"
+        case 1:
+            result = "The WQC value is \(pollutionScore)\n"+"This is considered to be Moderate⚠️ quality of water."
+            imgName = "LowWater"
+        case 2:
+            result = "The WQC value is \(pollutionScore)\n"+"This is considered to be Poor☹️ quality of water."
+             imgName = "BadWater"
                 default:
             let alertController = UIAlertController(title: "Extreme Water Pollution‼️🚨", message: "Estimated Water Pollution Level. Immediate action recommended to relocate.", preferredStyle: .alert)
             let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
@@ -102,8 +104,21 @@ class WaterPollutionViewController: UIViewController {
         TotalDisslovedSoilOL.text! = ""
         checkBtn.isEnabled = false
         resetBtn.isEnabled = false
+        AudioServicesPlaySystemSound(1000)
         
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+            super.viewWillAppear(animated)
+            
+        // Reset all input fields
+        PHLevelOL.text! = ""
+        DisslovedOxygenOL.text! = ""
+        TurbidityOL.text! = ""
+        TotalDisslovedSoilOL.text! = ""
+        checkBtn.isEnabled = false
+        resetBtn.isEnabled = false
+        }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         var transition = segue.identifier

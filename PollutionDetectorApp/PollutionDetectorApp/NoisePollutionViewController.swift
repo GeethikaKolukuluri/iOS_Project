@@ -31,6 +31,8 @@ class NoisePollutionViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        qualityBtnOL.isEnabled = false
+        resetBtnOL.isEnabled = false
     }
     
     @IBAction func qualityCheckBtnClicked(_ sender: UIButton) {
